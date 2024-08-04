@@ -1,4 +1,4 @@
 body {
   font-family: Roboto, sans-serif;
-  background: linear-gradient(to top, #27272a, #1a202c);
-}
+  background: rgb(90,103,0);
+  background: radial-gradient(circle, rgba(90,103,0,1) 0%, rgba(0,42,8,1) 64%);}

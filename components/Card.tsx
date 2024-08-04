@@ -17,6 +17,8 @@ export default function Card({
 }: CardProps) {
   return (
     <>
+    <div className='w-full rounded-lg shadow-lg flex items-center justify-between border border-orange-500'>
+      
       <a
         href={url}
         target="_blank"
@@ -38,6 +40,7 @@ export default function Card({
           </div>
         </div>
       </a>
+      </div>
       <style jsx global>{`
         a {
           text-decoration: none;
