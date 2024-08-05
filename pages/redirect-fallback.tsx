@@ -17,6 +17,7 @@ export default function RedirectFallback() {
           const response = await fetch(`/api/redirect?type=${type}`);
           if (response.ok) {
             const data = await response.json();
+            console.log(data)
             if (data.redirectUrl && isValidUrl(data.redirectUrl)) {
               setRedirectUrl(data.redirectUrl);
             } else {
@@ -73,7 +74,6 @@ export default function RedirectFallback() {
                 className="mb-4" // Add margin-bottom for spacing
                 width={547} // Adjust the width as needed
                 height={547} // Adjust the height as needed
-                layout=''
               />
               <h1 className="text-xl font-bold" style={{ color: '#FFA500', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.3)'}}>Page Redirecting...</h1>
               <p className="text-lg" style={{ color: '#FFA500', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.3)'}}>You will be redirected to the page in {countdown} seconds.</p>
