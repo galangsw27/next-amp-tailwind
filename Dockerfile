@@ -17,6 +17,6 @@ WORKDIR /app
  
 COPY --from=base /app ./
  
-EXPOSE 3002
+EXPOSE 4002
  
 CMD ["yarn", "start"]
