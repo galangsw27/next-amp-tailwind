@@ -28,7 +28,7 @@ jobs:
       id: build
       run: |
         IMAGE_TAG=galangsw/landing-1:latest
-        VERSION_TAG=galangsw/mafia07:${{ github.ref_name }}
+        VERSION_TAG=galangsw/landing-1:${{ github.ref_name }}
         docker build -t $IMAGE_TAG -t $VERSION_TAG .
         echo "IMAGE_TAG=$IMAGE_TAG" >> $GITHUB_ENV
         echo "VERSION_TAG=$VERSION_TAG" >> $GITHUB_ENV
