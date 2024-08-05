@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "build": " yarn build:css && next build",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider yarn build:css && cross-env NODE_OPTIONS=--openssl-legacy-provider next build",
     "build:css": "postcss style/index.css -o style/bundle.css",
     "dev": "run-p dev:*",
-    "dev:next": "next",
+    "dev:next": "cross-env NODE_OPTIONS=--openssl-legacy-provider next",
     "dev:postcss": "postcss style/index.css -o style/bundle.css -w",
     "start": "next start -p 4002"
   },
