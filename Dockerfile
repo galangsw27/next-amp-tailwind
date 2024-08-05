@@ -39,7 +39,7 @@ FROM deps as build
 # Copy the rest of the source files into the image.
 COPY . .
 # Run the build script.
-RUN yarn run build
+RUN yarn build
 
 ################################################################################
 # Create a new stage to run the application with minimal runtime dependencies
