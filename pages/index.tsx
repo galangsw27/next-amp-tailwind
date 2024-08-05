@@ -17,19 +17,16 @@ const items = {
   register: {
     title: 'Register/Login',
     subTitle: 'Sign up or log in',
-    url: 'https://kedanjos27.org/index.html#/register?referralid=antirungkad',
     icon: <i className="fa fa-user icon-white"></i>, // Use FontAwesome icon HTML
   },
   rtp: {
     title: 'RTP',
     subTitle: 'Check Now !',
-    url: '',
     icon: <i className="fa fa-rocket icon-white" ></i>, // Use FontAwesome icon HTML
   },
   alternative: {
     title: 'Link Alternative',
     subTitle: 'Access alternative links',
-    url: 'https://kedanjos11.co/#/index?category=home',
     icon: <i className="fa fa-link icon-white"></i>, // Use FontAwesome icon HTML
   },
 };
@@ -90,25 +87,25 @@ export default function Page() {
           ></amp-img>
            </div>
         <div className="w-full flex gap-5 my-2 flex-col items-center justify-center pb-2 lg:pb-10">
-            <Card
-              title={items.register.title}
-              subTitle={items.register.subTitle}
-              icon={items.register.icon}
-              url={items.register.url}
-            />
-            <Card
-              title={items.rtp.title}
-              subTitle={items.rtp.subTitle}
-              icon={items.rtp.icon}
-              url={items.rtp.url}
-              className='wobble'
-            />
-            <Card
-              title={items.alternative.title}
-              subTitle={items.alternative.subTitle}
-              icon={items.alternative.icon}
-              url={items.alternative.url}
-            />
+        <Card
+            title={items.register.title}
+            subTitle={items.register.subTitle}
+            icon={items.register.icon}
+            url="/api/redirect?type=register"
+          />
+          <Card
+            title={items.rtp.title}
+            subTitle={items.rtp.subTitle}
+            icon={items.rtp.icon}
+            url="/api/redirect?type=rtp"
+            className='wobble'
+          />
+          <Card
+            title={items.alternative.title}
+            subTitle={items.alternative.subTitle}
+            icon={items.alternative.icon}
+            url="/api/redirect?type=alternative"
+          />  
           </div>
       </div>
 
