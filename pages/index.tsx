@@ -52,10 +52,12 @@ export default function Page() {
     <Layout>
       <Head>
         <title>KEDANJOS ⚫️ Situs Bonus yang Menggiurkan.</title>
-        <link rel="canonical" href="https://kedanjos27.org/"/>
+        <link rel="canonical" href="http://kedanjosss88.lol/"/>
         <meta name="description" content="Temukan berbagai bonus menarik dari agen KEDANJOS."/>
-        <meta name="keywords" content="kedanjos,daftar kedanjos,login kedanjos."/>
+        <meta name="keywords" content="Login kedanjos, Registrasi kedanjos Daftar kedanjos, Situs Official kedanjos kedan jos"/>
+        <meta name="robots" content="index, follow"/>
         <meta name="og:title" content="KEDANJOS⚈Keistimewaan Bonus dari PG Soft untuk Pengalaman Game Terbaik."/>
+        <meta property="og:description" content="KEDANJOS - SITUS PERMAINAN ONLINE RESMI DAN TERPERCAYA DI INDONESIA SEASIA - BOLA SEDUNIA - AGEN TOGEL - LIVEGAME - FIHISING GAME - GAME MULTIVERSE"></meta>
         <meta name="og:description" content="KEDANJOS merupakan situs game online yang menawarkan berbagai macam bonus menarik dari provider terkemuka seperti PG Soft."/>
         <meta name="categories" content="kedanjos,daftar kedanjos,login kedanjos."/>
         <meta name="copyright" content="KEDANJOS"/>

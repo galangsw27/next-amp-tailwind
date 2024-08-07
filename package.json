@@ -3,12 +3,14 @@
     "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider yarn build:css && cross-env NODE_OPTIONS=--openssl-legacy-provider next build",
     "build:css": "postcss style/index.css -o style/bundle.css",
     "dev": "run-p dev:*",
+    "postbuild": "next-sitemap",
     "dev:next": "cross-env NODE_OPTIONS=--openssl-legacy-provider next",
     "dev:postcss": "postcss style/index.css -o style/bundle.css -w",
     "start": "next start -p 4002"
   },
   "dependencies": {
     "next": "^9.3.6",
+    "next-sitemap": "^4.2.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "tailwindcss": "^1.4.6"
