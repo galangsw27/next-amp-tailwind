@@ -1,5 +1,9 @@
+# *
 User-agent: *
-Disallow:
+Allow: /
 
-# Memungkinkan semua bot untuk mengakses situs
+# Host
+Host: http://kedanjosss88.lol
+
+# Sitemaps
 Sitemap: http://kedanjosss88.lol/sitemap.xml
