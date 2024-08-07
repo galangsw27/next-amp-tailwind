@@ -50,21 +50,6 @@ export default function Page() {
 
   return (
     <Layout>
-      <Head>
-        <title>KEDANJOS ⚫️ Situs Bonus yang Menggiurkan.</title>
-        <link rel="canonical" href="http://kedanjosss88.lol/"/>
-        <meta name="description" content="Temukan berbagai bonus menarik dari agen KEDANJOS."/>
-        <meta name="keywords" content="Login kedanjos, Registrasi kedanjos Daftar kedanjos, Situs Official kedanjos kedan jos"/>
-        <meta name="robots" content="index, follow"/>
-        <meta name="og:title" content="KEDANJOS⚈Keistimewaan Bonus dari PG Soft untuk Pengalaman Game Terbaik."/>
-        <meta property="og:description" content="KEDANJOS - SITUS PERMAINAN ONLINE RESMI DAN TERPERCAYA DI INDONESIA SEASIA - BOLA SEDUNIA - AGEN TOGEL - LIVEGAME - FIHISING GAME - GAME MULTIVERSE"></meta>
-        <meta name="og:description" content="KEDANJOS merupakan situs game online yang menawarkan berbagai macam bonus menarik dari provider terkemuka seperti PG Soft."/>
-        <meta name="categories" content="kedanjos,daftar kedanjos,login kedanjos."/>
-        <meta name="copyright" content="KEDANJOS"/>
-        <meta name="author" content="KEDANJOS"/>
-        <meta name="publisher" content="KEDANJOS"/>
-        <meta name="distribution" content="global"/>
-      </Head>
       <div className="min-h-screen bg-gradient-to-t from-zinc-800 to-zinc-900 p-2 md:flex items-center justify-center">
         <div className="flex flex-col items-center justify-center w-full max-w-xl mx-auto">
           <section className="flex flex-col items-center gap-5 justify-center my-10">
