@@ -17,9 +17,11 @@ export default function RedirectFallback() {
           const response = await fetch(`/api/redirect?type=${type}`);
           if (response.ok) {
             const data = await response.json();
-            console.log(data)
             if (data.redirectUrl && isValidUrl(data.redirectUrl)) {
-              setRedirectUrl(data.redirectUrl);
+              // Decode URL jika perlu
+              const decodedUrl = decodeURIComponent(data.redirectUrl);
+              console.log(decodedUrl)
+              setRedirectUrl(decodedUrl);
             } else {
               setError('Invalid redirect URL');
             }

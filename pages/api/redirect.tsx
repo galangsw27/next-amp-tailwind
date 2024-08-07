@@ -21,7 +21,7 @@ export default async function handler(req, res) {
       targetUrl = 'https://kedanjos27.org/index.html#/register';
       break;
     case 'rtp':
-      targetUrl = 'xn---kedanjos-9340a.site'; // Replace with your desired URL
+      targetUrl = 'https://xn---kedanjos-9340a.site/'; // Replace with your desired URL
       break;
     case 'alternative':
       targetUrl = 'https://kedanjos.com/';
