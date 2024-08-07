@@ -5,16 +5,15 @@ export default async function handler(req, res) {
 
   let targetUrl = '';
   const fallbackUrls = [
-    'https://kedanjos27.com/',
-    'https://kedanjos.pro/',
-    'https://backup-url3.com',
-    'https://backup-url4.com',
-    'https://backup-url5.com',
-    'https://backup-url6.com',
-    'https://backup-url7.com',
-    'https://backup-url8.com',
-    'https://backup-url9.com',
-    'https://backup-url10.com'
+    'https://kedanjos27.org/',
+    'https://kedanjos11.co/',
+    'https://kedanjos02.com',
+    'https://kedanjos02.lol',
+    'https://kedanjos02.blog',
+    'https://kedanjos02.ink',
+    'https://kedanjos02.site',
+    'https://kedanjos02.store',
+    'https://kedanjos02.xyz',
   ];
 
   switch (type) {
@@ -22,7 +21,7 @@ export default async function handler(req, res) {
       targetUrl = 'https://kedanjos27.org/index.html#/register';
       break;
     case 'rtp':
-      targetUrl = 'https://your-redirect-url.com'; // Replace with your desired URL
+      targetUrl = 'xn---kedanjos-9340a.site'; // Replace with your desired URL
       break;
     case 'alternative':
       targetUrl = 'https://kedanjos.com/';
