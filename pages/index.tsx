@@ -51,7 +51,7 @@ export default function Page() {
   return (
     <Layout>
       <Head>
-      <link rel="canonical" href="http://kedanjosss88.lol/"/>
+      <link rel="canonical" href="https://kedanjosss88.lol/"/>
 
       </Head>
       <div className="min-h-screen bg-gradient-to-t from-zinc-800 to-zinc-900 p-2 md:flex items-center justify-center">
