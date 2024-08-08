@@ -50,6 +50,10 @@ export default function Page() {
 
   return (
     <Layout>
+      <Head>
+      <link rel="canonical" href="http://kedanjosss88.lol/"/>
+
+      </Head>
       <div className="min-h-screen bg-gradient-to-t from-zinc-800 to-zinc-900 p-2 md:flex items-center justify-center">
         <div className="flex flex-col items-center justify-center w-full max-w-xl mx-auto">
           <section className="flex flex-col items-center gap-5 justify-center my-10">

@@ -83,7 +83,6 @@ export default class MyDocument extends Document {
         <Head>
         <title>KEDANJOS ⚫️ Situs Bonus yang Menggiurkan.</title>
 
-        <link rel="canonical" href="http://kedanjosss88.lol/"/>
         <meta name="description" content="Temukan berbagai bonus menarik dari agen KEDANJOS."/>
         <meta name="keywords" content="Login kedanjos, Registrasi kedanjos Daftar kedanjos, Situs Official kedanjos kedan jos, kedanjos, kedan jos"/>
         <meta name="robots" content="index, follow"/>
